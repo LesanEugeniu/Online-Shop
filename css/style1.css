@@ -1,0 +1,19 @@
+.scroll-down nav {
+  -webkit-transform: translate3d(0, -100%, 0);
+          transform: translate3d(0, -100%, 0);
+}
+
+.scroll-up nav {
+  -webkit-filter: drop-shadow(0 -10px 20px #aaaaaa);
+          filter: drop-shadow(0 -10px 20px #aaaaaa);
+}
+
+.menu-is-open {
+  overflow: hidden;
+}
+
+.menu-is-open nav {
+  -webkit-filter: none;
+          filter: none;
+}
+/*# sourceMappingURL=style1.css.map */
