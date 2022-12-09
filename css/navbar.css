@@ -534,3 +534,57 @@ body{
 .toggle .line3{
     transform: rotate(45deg) translate(-4px,-6px);
 }
+
+/* Meniul logarii din navbar */
+  .dropbtn{
+    cursor: pointer;
+  }
+
+  .dropdown-user {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    margin-top: 5px;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .orders-border{
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }
+
+  .uk-margin-right{
+    margin-right: 10px;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+  }
+  .dropdown-content a:hover{
+    color: rgb(82, 146, 243);
+  }
+
+  .user-image{
+    border-radius: 100%;
+    border: 1px solid #f1f1f1;
+  }
+  /* .dropdown a:hover {background-color: #ddd;} */
+  
+  .show {display: block;}
+
+/* Meniul logarii din navbar sfarsit*/

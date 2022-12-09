@@ -7,6 +7,4 @@ $(window).scroll(function() {
       $(".iPadPro-Image").attr("src", scrollSrc);
       k++;
     }
-//    else
-//       $(".iPadPro-Image").attr("src", initialSrc);
 });

@@ -8,10 +8,10 @@
     align-items: center;
 }
 .pannel{
-    background-color: rgb(255, 255, 255);
-    height: 600px;
+    background-color: rgb(230, 230, 230);
+    height: fit-content;
     width: 450px;
-    border-radius: 40px;
+    border-radius: 20px;
     padding: 20px;
     box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
 }
@@ -20,37 +20,27 @@
     height: 20px;
 }
 .pannel-sect-1{
-    height: 30%;
+    height: 25%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 .pannel-sect-2{
-    height: 70%;
+    height: 75%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-/* input[type=text], select,textarea {
-    width: 90%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    resize: none;
-  } */
   
   label{
       width: 100%;
       text-align: center;
   }
   input[type=submit] {
-    width: 70%;
+    width: 100%;
     background-color: #000000;
     color: white;
     padding: 14px 20px;
@@ -156,4 +146,82 @@
     border-radius: 4px;
     box-sizing: border-box;
     resize: none;
+}
+
+.form-sections{
+  width: 100%;
+}
+
+label {
+  color: black;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
+
+.mini-section{
+  width: 100%;
+}
+
+.long-input {
+  width: 100%;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 10px 8px;
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.two-section{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+}
+
+.two-section label {
+  text-align: left;
+}
+
+form div{
+  padding: 5px 0;
+}
+
+.already-signed{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.already-signed p {
+  color: black;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
+.already-signed a {
+  color: black;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
+
+.already-signed a:hover {
+  color: rgb(85, 85, 85);
+}
+
+.error{
+  display: none;
+  background-color: #d49999;
+  padding: 8px 8px;
+  border: 1px solid #df7c7c;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.error p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: red;
+}
+
+.pannel-sect-1 div img {
+  width: 100px;
 }

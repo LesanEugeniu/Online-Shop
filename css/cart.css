@@ -171,7 +171,7 @@
     cursor: pointer;
 }
 .btn-plus-minus{
-    width: 150px;
+    width: 120px;
     display: flex;
     height: 50px;
     justify-content: space-around;
@@ -193,9 +193,13 @@
     cursor: pointer;
 }
 .prod-cart-text{
+    text-align: center;
     color: #000;
     font-size: 18px;
     font-family: 'Inter', sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    width: 30px;
 }
 
 @media all and (max-width: 800px){
