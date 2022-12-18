@@ -1,5 +1,5 @@
 # Online-Shop
 
-***School Project q:D***
+***School Project***
 
 Most of the ideas are taken from 	***apple.com***
